@@ -6,8 +6,75 @@
     box-sizing: border-box;
 }
 
+
 /* generics */
 
 body {
-    background-color: green;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
 }
+
+header {
+    max-width: 1495px;
+}
+
+
+/* header */
+
+.h-head {
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    width: 30px;
+}
+
+h3 {
+    align-self: flex-start;
+}
+
+.right-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    padding-left: 10px;
+}
+
+.left-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 26%;
+    padding-right: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.opt {
+    color: #767676;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.butt {
+    padding: 5px 10px;
+}
+
+button.blu {
+    background-color: #0061FF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
