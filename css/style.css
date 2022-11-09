@@ -186,7 +186,7 @@ div.blu {
 
 .single {
     border: 2px solid #DEDEE0;
-    padding: 25px 11px 0 11px;
+    padding: 25px 10px 0 10px;
     margin-top: -1px;
     width: 100%;
     height: 100%;
@@ -211,7 +211,7 @@ div.blu {
 }
 
 .rule {
-    font-size: 11px;
+    font-size: 10px;
     margin: 10px 0;
     align-items: baseline;
     display: inline-flex;
@@ -221,6 +221,7 @@ div.blu {
     width: 100%;
     padding: 10px 10px;
     margin-top: 20px;
+    font-size: 10px;
 }
 
 .now {
@@ -254,4 +255,30 @@ ul {
     margin: 10px 0;
     line-height: 15px;
     font-size: 12px;
+}
+
+.ex {
+    width: 100%;
+    margin: 100px 0 0 0;
+    border: 2px solid #DEDEE0;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.team-b {
+    padding: 5px 20px;
+    font-size: 10px;
+}
+
+.desc-team {
+    margin: 60px 0 10px 0px;
+    width: 70%;
+    font-size: 13px;
 }
