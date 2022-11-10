@@ -453,3 +453,27 @@ h4 {
 .bgc-g {
     background-color: #FFD830;
 }
+
+/* take */
+
+.take {
+    background-color: #B4D0E7;
+}
+
+.take-cont {
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.take-title {
+    margin: 0;
+    color: #61082B;
+    width: 55%;
+}
+
+button.no-border-butt {
+    border: none;
+    padding: 7px 35px;
+}
