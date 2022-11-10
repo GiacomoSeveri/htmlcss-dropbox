@@ -329,7 +329,7 @@ h4 {
 }
 
 .title-op {
-    margin-top: 35px;
+    margin: 35px 0 30px 0;
 }
 
 .option-up {
@@ -359,4 +359,97 @@ h4 {
 
 .title-cli {
     margin-bottom: 35px;
+}
+
+/* sponsor */
+
+.sponsor {
+    max-width: 1495px;
+    padding-top: 100px;
+}
+
+.cont-xl {
+    width: 100%;
+    margin: 0 auto;
+    height: 492px;
+}
+
+.flex-sponsor {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sponsor-img {
+    width: 100px;
+}
+
+.conteiner-img {
+    width: calc(100% / 3);
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.conteiner-text {
+    display: flex;
+    padding: 35px;
+    justify-content: flex-start;
+    max-width: 33%;
+    background-color: #F5F5F5;
+}
+
+.wrap-img {
+    width: 50%;
+    height: 50%;
+    padding: 50px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-p {
+    font-size: 13px;
+    margin-bottom: 35px;
+}
+
+.hr-s {
+    width: 95px;
+}
+
+.p-img-s {
+    width: 190px;
+}
+
+.bgc-v {
+    background-color: #A2D39B;
+}
+
+.bgc-a {
+    background-color: #61082B;
+}
+
+.bgc-b {
+    background-color: #0093CE;
+}
+
+.bgc-r {
+    background-color: #FF1C1C;
+}
+
+.bgc-rs {
+    background-color: #D5001F;
+}
+
+.bgc-c {
+    background-color: #B4D0E7;
+}
+
+.bgc-bs {
+    background-color: #0D2481;
+}
+
+.bgc-g {
+    background-color: #FFD830;
 }
