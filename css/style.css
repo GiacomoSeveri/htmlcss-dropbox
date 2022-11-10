@@ -141,6 +141,7 @@ h1 {
 h2 {
     font-weight: 600;
     font-size: 30px;
+    margin-top: 100px;
 }
 
 .checkbox {
@@ -325,4 +326,37 @@ h4 {
 
 .operation {
     padding-top: 100px;
+}
+
+.title-op {
+    margin-top: 35px;
+}
+
+.option-up {
+    display: flex;
+    gap: 11px;
+}
+
+.option-down {
+    display: flex;
+    gap: 11px;
+    padding-top: 30px;
+}
+
+.opt-img {
+    width: 280px;
+    text-align: center;
+}
+
+.opt-text {
+    font-size: 12px;
+}
+
+.cont-cli {
+    max-width: 65%;
+    margin: 150px 0 50px 0;
+}
+
+.title-cli {
+    margin-bottom: 35px;
 }
