@@ -520,11 +520,26 @@ button.no-border-butt {
 .list-text {
     font-size: 13px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .arrow-d-list {
     margin: 0 0 0 340px;
-    cursor: pointer;
+}
+
+.lorem {
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 1.5;
+    display: none;
+}
+
+.list-text:hover + p.lorem {
+    display: block;
+}
+
+.list-text:hover .arrow-d-list {
+    transform: rotate(180deg);
 }
 
 /* footer */
