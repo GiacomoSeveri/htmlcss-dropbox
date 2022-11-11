@@ -14,10 +14,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-header {
-    max-width: 1495px;
-}
-
 .icon-margin {
     margin-right: 5px;
 }
@@ -383,7 +379,6 @@ h4 {
 /* sponsor */
 
 .sponsor {
-    max-width: 1495px;
     padding-top: 100px;
 }
 
