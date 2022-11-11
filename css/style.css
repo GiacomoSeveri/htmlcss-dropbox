@@ -18,6 +18,10 @@ header {
     max-width: 1495px;
 }
 
+.icon-margin {
+    margin-right: 5px;
+}
+
 
 /* header */
 
@@ -220,6 +224,7 @@ div.blu {
     margin: 10px 0;
     align-items: baseline;
     display: inline-flex;
+    font-weight: 400;
 }
 
 .gratis {
@@ -232,6 +237,7 @@ div.blu {
 .now {
     font-size: 12px;
     margin: 15px 0;
+    font-weight: 400;
 }
 
 hr {
@@ -246,7 +252,6 @@ ul {
 }
 
 .list-title {
-    font-weight: 700;
     font-size: 12px;
     margin: 0 0 15px 0;
 }
@@ -260,6 +265,7 @@ ul {
     margin: 10px 0;
     line-height: 15px;
     font-size: 12px;
+    font-weight: 400;
 }
 
 .ex {
@@ -507,4 +513,39 @@ button.no-border-butt {
 footer {
     background-color: #000;
     height: 500px;
+    color: #fff;
+    padding-top: 100px;
+    margin-top: 120px;
+}
+
+.f-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-list-title {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+ul.footer-list > li {
+    line-height: 35px;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.f-sep {
+    width: 130px;
+    margin-top: 80px;
+    color: #747474;
+    background-color: #747474;
+    height: 1px;
+}
+
+.last-text {
+    color: #747474;
+    font-weight: 300;
+    font-size: 13px;
+    cursor: pointer;
 }
