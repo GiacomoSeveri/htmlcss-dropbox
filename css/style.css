@@ -160,7 +160,7 @@ h2 {
 }
 
 div.blu {
-    background-color: #0061FF;
+    border: #0061FF solid 4px;
 }
 
 .bill {
@@ -382,6 +382,7 @@ h4 {
 
 .sponsor-img {
     width: 100px;
+    filter: invert(1);
 }
 
 .conteiner-img {
@@ -476,4 +477,34 @@ h4 {
 button.no-border-butt {
     border: none;
     padding: 7px 35px;
+}
+
+/* faq */
+
+.list-title-b {
+    font-weight: 600;
+    font-size: 30px;
+    margin: 100px 0 65px 0;
+}
+
+.list-separetor {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.list-text {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.arrow-d-list {
+    margin: 0 0 0 340px;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer {
+    background-color: #000;
+    height: 500px;
 }
