@@ -387,7 +387,7 @@ h4 {
 }
 
 .sponsor-img {
-    width: 100px;
+    width: 130px;
     filter: invert(1);
 }
 
@@ -414,6 +414,12 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 15px solid transparent;
+    transition: border 0.4s;
+}
+
+.wrap-img:hover {
+    border: 15px solid rgba(255, 255, 255, 0.5);
 }
 
 .sponsor-p {
